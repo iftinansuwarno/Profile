@@ -3,21 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iftinan Suwarno | Portfolio</title>
+    <title>Iftinan Suwarno | Digital Learning Transformation</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Lora:wght@700&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; color: #1a202c; line-height: 1.6; }
         h1, h2, h3 { font-family: 'Lora', serif; }
-        .section-title { border-bottom: 2px solid #edf2f7; padding-bottom: 0.5rem; margin-bottom: 1.5rem; color: #2d3748; text-transform: uppercase; letter-spacing: 0.05em; font-size: 1.1rem; font-weight: 700; }
+        .section-title { border-bottom: 2px solid #edf2f7; padding-bottom: 0.5rem; margin-bottom: 1.5rem; color: #2d3748; text-transform: uppercase; letter-spacing: 0.05em; font-size: 1.25rem; }
         .card { border-left: 4px solid #3182ce; padding-left: 1.25rem; margin-bottom: 2.5rem; }
-        .btn-link { display: inline-flex; align-items: center; padding: 0.5rem 1rem; background-color: #ebf8ff; color: #2b6cb0; border-radius: 0.5rem; font-weight: 600; font-size: 0.875rem; transition: all 0.2s; }
+        .exp-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; }
+        .date-tag { font-size: 0.875rem; color: #718096; font-weight: 500; }
+        /* CSS TAMBAHAN UNTUK TOMBOL RESEARCHGATE */
+        .btn-link { display: inline-flex; align-items: center; padding: 0.5rem 1rem; background-color: #ebf8ff; color: #2b6cb0; border-radius: 0.5rem; font-weight: 600; font-size: 0.875rem; transition: all 0.2s; text-decoration: none; }
         .btn-link:hover { background-color: #bee3f8; transform: translateY(-1px); }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-800">
-    <div class="max-w-4xl mx-auto px-6 py-12 md:py-20 bg-white shadow-sm rounded-xl mt-10">
-        <header class="mb-12">
+    <div class="max-w-4xl mx-auto px-6 py-12 md:py-20 bg-white shadow-sm">
+        
+        <!-- Header & Summary -->
+        <header class="mb-16">
             <h1 class="text-4xl md:text-5xl font-bold text-blue-900 mb-4">Iftinan Suwarno</h1>
             <div class="flex flex-wrap gap-4 text-sm font-medium mb-8">
                 <a href="mailto:iazzahs1@jh.edu" class="text-blue-600 hover:underline">iazzahs1@jh.edu</a>
@@ -29,11 +34,77 @@
                 <a href="https://www.researchgate.net/profile/Iftinan-R-Azzah-S-2/research" target="_blank" class="text-blue-600 hover:underline">ResearchGate</a>
             </div>
             <p class="text-lg text-gray-700 italic border-l-4 border-blue-200 pl-4">
-                Master’s student at Johns Hopkins specializing in digital learning transformation and Agentic AI.
+                Master’s student at Johns Hopkins with experience in digital learning transformation. From leading student associations to engineering AI curriculum mapping, I specialize in creating scalable, inclusive, and data-driven educational solutions.
             </p>
         </header>
 
-        <section class="mb-12">
+        <!-- Work Experience -->
+        <section class="mb-16">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="card">
+                <div class="exp-header">
+                    <h3 class="text-xl font-bold">Instructional Design Intern</h3>
+                    <span class="date-tag">Sep 2025 – April 2026</span>
+                </div>
+                <p class="text-blue-700 font-semibold italic">Johns Hopkins University (IRC)</p>
+                <ul class="list-disc ml-5 mt-3 text-sm space-y-2 text-gray-700">
+                    <li>Architected a centralized Knowledge Base for Agentic AI by synthesizing 50+ academic journals.</li>
+                    <li>Converted 100% of instructional workflows into AI-ready, RAG-optimized data structures.</li>
+                    <li>Standardized AI curriculum mapping by aligning 100% of PLOs, CLOs, and MLOs.</li>
+                    <li>Achieved 100% adherence to ADA accessibility and Canvas LMS standards.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="exp-header">
+                    <h3 class="text-xl font-bold">Student Intern</h3>
+                    <span class="date-tag">Jan 2025 – July 2025</span>
+                </div>
+                <p class="text-blue-700 font-semibold italic">Blue Hatchling - Baltimore, MD</p>
+                <ul class="list-disc ml-5 mt-3 text-sm space-y-2 text-gray-700">
+                    <li>Secured funding by identifying 15+ grant opportunities.</li>
+                    <li>Optimized donor management via Salesforce for 100% of partners.</li>
+                    <li>Synthesized 100% of project milestones into visual reports.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="exp-header">
+                    <h3 class="text-xl font-bold">Master Teacher</h3>
+                    <span class="date-tag">Aug 2022 - Dec 2024</span>
+                </div>
+                <p class="text-blue-700 font-semibold italic">Brain Academy By Ruangguru</p>
+                <ul class="list-disc ml-5 mt-3 text-sm space-y-2 text-gray-700">
+                    <li>Boosted student growth scores by 25% on average.</li>
+                    <li>Facilitated soft-skill development forums for 200+ participants.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Volunteer -->
+        <section class="mb-16">
+            <h2 class="section-title">Volunteering & Leadership</h2>
+            <div class="card">
+                <h3 class="text-lg font-bold">Head of Students Association (LPDP Southeast US)</h3>
+                <p class="text-sm text-gray-500 mb-2">Sep 2025 - Present</p>
+                <p class="text-sm text-gray-700">Empowered students in coastal villages through career seminars and mentorship.</p>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="mb-16">
+            <h2 class="section-title">Education</h2>
+            <div class="space-y-4">
+                <div>
+                    <div class="flex justify-between font-bold text-blue-900">
+                        <span>Johns Hopkins University</span>
+                        <span>GPA: 3.94/4.00</span>
+                    </div>
+                    <p class="text-sm">MS in Education (Expected May 2026)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publication Section -->
+        <section class="mb-16">
             <h2 class="section-title">Academic Publications</h2>
             <div class="bg-blue-50 p-6 rounded-lg border border-blue-100 flex flex-col md:flex-row justify-between items-center gap-4">
                 <p class="text-sm text-gray-600">Access full-text research papers, including ChatGPT-Assisted PBL studies.</p>
@@ -41,32 +112,17 @@
             </div>
         </section>
 
-        <section class="mb-12">
-            <h2 class="section-title">Education</h2>
-            <div class="space-y-4">
-                <div>
-                    <h3 class="font-bold text-blue-900">Johns Hopkins University (MS in Education)</h3>
-                    <p class="text-sm text-gray-600">GPA: 3.94/4.00 | Expected May 2026</p>
-                </div>
+        <!-- Projects Link -->
+        <section class="mb-16 bg-blue-50 p-6 rounded-lg border border-blue-100">
+            <h2 class="text-xl font-bold text-blue-900 mb-4 text-center">Explore Technical Projects</h2>
+            <div class="flex justify-center gap-6">
+                <a href="https://github.com/iftinansuwarno/Agentic-LXD-Framework" class="text-blue-600 font-bold hover:underline">Agentic LXD Framework →</a>
+                <a href="https://github.com/iftinansuwarno/ChatGPT-Assisted-PBL" class="text-blue-600 font-bold hover:underline">ChatGPT-Assisted PBL →</a>
             </div>
         </section>
 
-        <section class="mb-12">
-            <h2 class="section-title">Technical Projects</h2>
-            <div class="grid md:grid-cols-2 gap-4">
-                <a href="https://github.com/iftinansuwarno/Agentic-LXD-Framework" class="p-4 border rounded-lg hover:bg-gray-50 transition">
-                    <h3 class="font-bold text-blue-900">Agentic LXD Framework →</h3>
-                    <p class="text-xs text-gray-500">AI-ready data structures & RAG optimization.</p>
-                </a>
-                <a href="https://github.com/iftinansuwarno/ChatGPT-Assisted-PBL" class="p-4 border rounded-lg hover:bg-gray-50 transition">
-                    <h3 class="font-bold text-blue-900">ChatGPT-Assisted PBL →</h3>
-                    <p class="text-xs text-gray-500">HITL integration with 65.3% N-Gain improvement.</p>
-                </a>
-            </div>
-        </section>
-
-        <footer class="text-center pt-8 border-t text-xs text-gray-400">
-            &copy; 2026 Iftinan Suwarno | Built with Tailwind CSS
+        <footer class="text-center pt-8 border-t border-gray-200 text-xs text-gray-400">
+            &copy; 2026 Iftinan Suwarno | Baltimore, MD
         </footer>
     </div>
 </body>

@@ -3,93 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iftinan Suwarno | Portfolio</title>
+    <title>Iftinan Suwarno | Digital Learning Transformation</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Lora:wght@700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Inter', sans-serif; color: #1a202c; }
+        body { font-family: 'Inter', sans-serif; color: #1a202c; line-height: 1.6; }
         h1, h2, h3 { font-family: 'Lora', serif; }
-        .section-title { border-bottom: 2px solid #edf2f7; padding-bottom: 0.5rem; margin-bottom: 1.5rem; color: #2d3748; }
-        .card { border-left: 4px solid #3182ce; padding-left: 1rem; margin-bottom: 2rem; }
-        .project-card { transition: transform 0.2s; }
-        .project-card:hover { transform: translateY(-5px); }
+        .section-title { border-bottom: 2px solid #edf2f7; padding-bottom: 0.5rem; margin-bottom: 1.5rem; color: #2d3748; text-transform: uppercase; letter-spacing: 0.05em; font-size: 1.25rem; }
+        .card { border-left: 4px solid #3182ce; padding-left: 1.25rem; margin-bottom: 2.5rem; }
+        .exp-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; }
+        .date-tag { font-size: 0.875rem; color: #718096; font-weight: 500; }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-800">
-    <div class="max-w-4xl mx-auto px-6 py-12 md:py-20">
+<body class="bg-slate-50 text-slate-800">
+    <div class="max-w-4xl mx-auto px-6 py-12 md:py-20 bg-white shadow-sm">
         
-        <!-- Header -->
-        <header class="mb-16 text-center md:text-left">
+        <!-- Header & Summary -->
+        <header class="mb-16">
             <h1 class="text-4xl md:text-5xl font-bold text-blue-900 mb-4">Iftinan Suwarno</h1>
-            <p class="text-xl text-gray-600 mb-6">Instructional Design Intern @ Johns Hopkins University</p>
-            <div class="flex flex-wrap justify-center md:justify-start gap-4 text-sm font-medium">
+            <div class="flex flex-wrap gap-4 text-sm font-medium mb-8">
                 <a href="mailto:iazzahs1@jh.edu" class="text-blue-600 hover:underline">iazzahs1@jh.edu</a>
                 <span class="text-gray-300">|</span>
                 <a href="https://linkedin.com/in/iftinsr/" target="_blank" class="text-blue-600 hover:underline">LinkedIn</a>
                 <span class="text-gray-300">|</span>
                 <a href="https://github.com/iftinansuwarno" target="_blank" class="text-blue-600 hover:underline">GitHub</a>
             </div>
+            <p class="text-lg text-gray-700 italic border-l-4 border-blue-200 pl-4">
+                Master’s student at Johns Hopkins with experience in digital learning transformation. From leading student associations to engineering AI curriculum mapping, I specialize in creating scalable, inclusive, and data-driven educational solutions.
+            </p>
         </header>
 
-        <!-- Section: Education -->
+        <!-- Work Experience -->
         <section class="mb-16">
-            <h2 class="text-2xl font-bold section-title">Education</h2>
+            <h2 class="section-title">Work Experience</h2>
+            
             <div class="card">
-                <h3 class="text-lg font-semibold">Johns Hopkins University</h3>
-                <p class="text-blue-700">Master of Science in Education</p>
-                <p class="text-sm text-gray-500">Expected Graduation: May 2026</p>
+                <div class="exp-header">
+                    <h3 class="text-xl font-bold">Instructional Design Intern</h3>
+                    <span class="date-tag">Sep 2025 – April 2026</span>
+                </div>
+                <p class="text-blue-700 font-semibold italic">Johns Hopkins University Advanced Academic Programs (IRC)</p>
+                <ul class="list-disc ml-5 mt-3 text-sm space-y-2 text-gray-700">
+                    <li>Architected a centralized Knowledge Base for Agentic AI by synthesizing 50+ academic journals.</li>
+                    <li>Converted 100% of instructional workflows into AI-ready, RAG-optimized data structures.</li>
+                    <li>Standardized AI curriculum mapping by aligning 100% of PLOs, CLOs, and MLOs.</li>
+                    <li>Achieved 100% adherence to ADA accessibility and Canvas LMS standards.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="exp-header">
+                    <h3 class="text-xl font-bold">Student Intern</h3>
+                    <span class="date-tag">Jan 2025 – July 2025</span>
+                </div>
+                <p class="text-blue-700 font-semibold italic">Blue Hatchling - Baltimore, MD</p>
+                <ul class="list-disc ml-5 mt-3 text-sm space-y-2 text-gray-700">
+                    <li>Secured funding by identifying 15+ grant opportunities for international initiatives.</li>
+                    <li>Optimized donor management via Salesforce, increasing tracking efficiency for 100% of partners.</li>
+                    <li>Synthesized 100% of project milestones into high-impact visual reports.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="exp-header">
+                    <h3 class="text-xl font-bold">Master Teacher</h3>
+                    <span class="date-tag">Aug 2022 - Dec 2024</span>
+                </div>
+                <p class="text-blue-700 font-semibold italic">Brain Academy By Ruangguru - Indonesia</p>
+                <ul class="list-disc ml-5 mt-3 text-sm space-y-2 text-gray-700">
+                    <li>Boosted student growth scores by 25% on average through data-driven pre/post-assessments.</li>
+                    <li>Facilitated soft-skill development forums for 200+ participants.</li>
+                    <li>Maintained 100% curriculum compliance against national educational benchmarks.</li>
+                </ul>
             </div>
         </section>
 
-        <!-- Section: Work Experience -->
+        <!-- Volunteer & Leadership -->
         <section class="mb-16">
-            <h2 class="text-2xl font-bold section-title">Work Experience</h2>
-            <div class="space-y-8">
-                <div class="card">
-                    <h3 class="text-lg font-semibold">Instructional Design Intern</h3>
-                    <p class="text-blue-700 font-medium">JHU Instructional Resource Center (IRC)</p>
-                    <p class="text-sm text-gray-500 mb-2">Sep 2025 - Present</p>
-                    <ul class="list-disc ml-5 text-sm space-y-1">
-                        <li>Architecting Knowledge Base for Agentic AI using CDC/CDM protocols.</li>
-                        <li>Standardizing AI Curriculum Mapping (PLO, CLO, MLO).</li>
-                        <li>Ensuring ADA compliance and Canvas LMS integration in AI workflows.</li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <h3 class="text-lg font-semibold">Master Teacher</h3>
-                    <p class="text-blue-700 font-medium">Brain Academy by Ruangguru</p>
-                    <p class="text-sm text-gray-500">Aug 2022 - Dec 2024</p>
-                </div>
+            <h2 class="section-title">Volunteering & Leadership</h2>
+            
+            <div class="card">
+                <h3 class="text-lg font-bold">Head of Students Association (LPDP Southeast US)</h3>
+                <p class="text-sm text-gray-500 mb-2">Sep 2025 - Present</p>
+                <p class="text-sm text-gray-700">Empowered 100% of students in coastal villages through career seminars and 1-on-1 mentorship for 30+ students.</p>
+            </div>
+
+            <div class="card">
+                <h3 class="text-lg font-bold">Internal Events - Mata Garuda Amerika (US & Canada)</h3>
+                <p class="text-sm text-gray-500 mb-2">Sep 2025 - Present</p>
+                <p class="text-sm text-gray-700">Spearheaded "Mata Garuda Day" Boston and organized site visits to the World Bank in Washington D.C..</p>
             </div>
         </section>
 
-        <!-- Section: Featured Projects -->
+        <!-- Education -->
         <section class="mb-16">
-            <h2 class="text-2xl font-bold section-title">Featured Projects</h2>
-            <div class="grid md:grid-cols-2 gap-6">
-                <!-- Agentic LXD -->
-                <div class="project-card bg-white p-6 rounded-lg shadow-sm border border-gray-100 flex flex-col justify-between">
-                    <div>
-                        <h3 class="text-xl font-bold text-blue-900 mb-2">Agentic LXD Framework</h3>
-                        <p class="text-gray-600 text-sm mb-4">An open-source framework for architecting Agentic AI in Learning Experience Design, optimized for RAG.</p>
+            <h2 class="section-title">Education</h2>
+            <div class="space-y-4">
+                <div>
+                    <div class="flex justify-between font-bold text-blue-900">
+                        <span>Johns Hopkins University</span>
+                        <span>GPA: 3.94/4.00</span>
                     </div>
-                    <a href="https://github.com/iftinansuwarno/Agentic-LXD-Framework" target="_blank" class="text-blue-600 text-sm font-bold hover:text-blue-800 transition">View on GitHub →</a>
+                    <p class="text-sm">MS in Education (Expected May 2026)</p>
                 </div>
-
-                <!-- ChatGPT-Assisted PBL -->
-                <div class="project-card bg-white p-6 rounded-lg shadow-sm border border-gray-100 flex flex-col justify-between">
-                    <div>
-                        <h3 class="text-xl font-bold text-blue-900 mb-2">ChatGPT-Assisted PBL</h3>
-                        <p class="text-gray-600 text-sm mb-4">Research on "Human-in-the-Loop" AI integration in PBL models, achieving a 65.3% N-Gain improvement.</p>
+                <div>
+                    <div class="flex justify-between font-bold text-blue-900">
+                        <span>Syekh Wasil State Islamic University</span>
+                        <span>GPA: 3.42/4.00</span>
                     </div>
-                    <a href="https://github.com/iftinansuwarno/ChatGPT-Assisted-PBL" target="_blank" class="text-blue-600 text-sm font-bold hover:text-blue-800 transition">View on GitHub →</a>
+                    <p class="text-sm">Bachelor of English Education</p>
                 </div>
             </div>
         </section>
 
-        <!-- Footer -->
+        <!-- Projects Link -->
+        <section class="mb-16 bg-blue-50 p-6 rounded-lg border border-blue-100">
+            <h2 class="text-xl font-bold text-blue-900 mb-4 text-center">Explore Technical Projects</h2>
+            <div class="flex justify-center gap-6">
+                <a href="https://github.com/iftinansuwarno/Agentic-LXD-Framework" class="text-blue-600 font-bold hover:underline">Agentic LXD Framework →</a>
+                <a href="https://github.com/iftinansuwarno/ChatGPT-Assisted-PBL" class="text-blue-600 font-bold hover:underline">ChatGPT-Assisted PBL →</a>
+            </div>
+        </section>
+
         <footer class="text-center pt-8 border-t border-gray-200 text-xs text-gray-400">
-            &copy; 2026 Iftinan Suwarno | Built with Tailwind CSS
+            &copy; 2026 Iftinan Suwarno | Baltimore, MD
         </footer>
     </div>
 </body>
